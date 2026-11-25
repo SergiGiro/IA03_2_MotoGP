@@ -34,14 +34,13 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  // Pilots inicials: només posem el nom, la resta de dades vénen de l'API.
+  // Els 5 millors pilots: només posem el nom, la resta de dades vénen de l'API.
   List<Rider> initialRiders = [
     Rider('Marc Marquez'),
     Rider('Francesco Bagnaia'),
     Rider('Jorge Martin'),
     Rider('Pedro Acosta'),
     Rider('Alex Marquez'),
-    Rider('Fabio Quartararo'),
   ];
 
   Future _showNewRiderForm() async {
